@@ -507,3 +507,58 @@ data drift schedulers and alerts
 reviewing data drift
 
 ### 10.9
+
+# Questions
+Difference between 
+    pip install azureml
+        this doesnt seem to work contain the azureml.core components
+        check pip list for installed packages
+    pip install azureml-core
+    pip install azureml-sdk
+    pip install azureml-sdk[notebooks]
+
+diff between
+    azureml CLI
+    azureml python SDK
+
+azureml docker image
+    what is going on with azureml docker image, why doesnt it come with azureml?
+    ruamel
+        https://azure.github.io/azureml-sdk-for-r/articles/troubleshooting.html#modulenotfounderror-no-module-named-ruamel
+        https://github.com/Azure/MachineLearningNotebooks/issues/1110
+        why doesnt the official image get updated with the right pip version if the solution is so easy?
+
+config
+    what does the config file need to look like to set up workspace?
+
+# Pages
+## Docs
+general - https://docs.microsoft.com/en-us/azure/machine-learning/
+
+## Setup Config
+?
+
+## Deploy Local
+https://github.com/Azure/azureml-examples/blob/main/python-sdk/tutorials/deploy-local/1.deploy-local.ipynb
+
+## MNIST
+https://docs.microsoft.com/en-us/azure/machine-learning/tutorial-train-models-with-aml
+https://github.com/Azure/azureml-examples/tree/main/python-sdk/workflows/deploy
+
+## Examples
+python sdk - https://github.com/Azure/azureml-examples/tree/main/python-sdk
+    hello world - https://github.com/Azure/azureml-examples/blob/main/python-sdk/tutorials/an-introduction/1.hello-world.ipynb
+notebooks - https://github.com/Azure/MachineLearningNotebooks
+
+
+
+## setup python dev for az ml
+https://docs.microsoft.com/en-us/azure/machine-learning/how-to-configure-environment#local
+
+## Docker and Azure
+https://github.com/Azure/AzureML-Containers
+https://docs.microsoft.com/en-us/azure/machine-learning/how-to-train-with-custom-image
+
+## Azure ML Templates
+https://github.com/Azure/azureml-template
+
